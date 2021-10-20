@@ -107,7 +107,6 @@ struct ContentView: View {
                     Path{ path in
                         path.move(to: CGPoint(x: 195, y: 390))
                         path.addQuadCurve(to: CGPoint(x: 185, y: 400), control: CGPoint(x: 195 ,y: 410))
-                            
                     }
                     .stroke(Color(red: 86/255, green: 60/255, blue: 48/255), lineWidth: 5)
                     Path{ path in
